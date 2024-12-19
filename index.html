@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com validação</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <section class="home">
+            <h1>FICOU COM ALGUMA DÚVIDA?<br>
+                NOS MANDE UMA MENSAGEM
+            </h1>
+
+            <p>caso tenha ficado com qualquer dúvida <br>
+                basta nos mandar uma mensagem <br>
+                e entraremos em contato em menos de
+                24h.</p>
+        </section>
+
+        <section class="form">
+            <form method="post" action="index.html">
+                <input class="campo-obrigatorio" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                <div class="mensagem-erro"></div>
+
+                <input class="campo-obrigatorio" type="text" name="email" id="email" placeholder="Email *">
+                <div class="mensagem-erro"></div>
+
+                <input class="campo-obrigatorio" type="text" name="telefone" id="telefone" placeholder="Telefone *">
+                <div class="mensagem-erro"></div>
+
+                <input class="campo-obrigatorio" type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
+                <div class="mensagem-erro"></div>
+
+                <h2>*campos obrigatórios</h2>
+
+                <a href="">
+                    <button>Enviar</button>
+                </a>
+            </form>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

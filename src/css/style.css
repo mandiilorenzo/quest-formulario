@@ -1,0 +1,91 @@
+body {
+    background: url(../images/bg-image.png) no-repeat;
+    background-size: cover;
+    font-family: "Roboto", serif;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.container .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    max-width: 100%;
+    color: #ffffff;
+    gap: 11px;
+}
+
+.home h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.home p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form {
+    background-color: #ffffff;
+    max-width: 100%;
+    margin: auto;
+    padding: 21px;
+}
+
+.form input {
+    width: 298.01px;
+    height: 35.11px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-bottom: 14.89px;
+    padding-left: 9.93px;
+}
+
+.form #mensagem {
+    height: 100%;
+    padding: 5px 0 80px 8px;
+}
+
+.form h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.form a button {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form button {
+    width: 298.01px;
+    height: 41.13px;
+    border: 1px solid #3CCC87;
+    border-radius: 5px;
+    background-color: #3CCC87;
+}
+
+.form .borda-verde {
+    border-color: #3CCC87;
+}
+
+.form .borda-vermelha {
+    border: 1px solid #F52E2E;
+}
+
+.form .mensagem-erro {
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: -12px;
+}
+

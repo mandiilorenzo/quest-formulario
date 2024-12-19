@@ -1,0 +1,14 @@
+@media(max-width: 750px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container .home {
+        height: 25vh;
+    }
+
+    .form {
+        margin-bottom: 20px;
+    }
+}
