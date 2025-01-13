@@ -16,7 +16,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: auto;
-    max-width: 100%;
+    max-width: 300px;
     color: #ffffff;
     gap: 11px;
 }
@@ -59,14 +59,11 @@ body {
     margin-bottom: 22px;
 }
 
-.form a button {
+.form button {
     color: #ffffff;
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
-}
-
-.form button {
     width: 298.01px;
     height: 41.13px;
     border: 1px solid #3CCC87;
@@ -74,11 +71,11 @@ body {
     background-color: #3CCC87;
 }
 
-.form .borda-verde {
+.form .campo-obrigatorio.borda-verde {
     border-color: #3CCC87;
 }
 
-.form .borda-vermelha {
+.form .campo-obrigatorio.borda-vermelha {
     border: 1px solid #F52E2E;
 }
 
